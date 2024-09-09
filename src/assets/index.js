@@ -1,4 +1,5 @@
 import github from "./Icons/git.png";
+import tictactoe from "./Projects/Tic-tac-toe.png"
 import css from "./Icons/css.png";
 import docker from "./Icons/docker.png";
 import figma from "./Icons/figma.png";
@@ -51,5 +52,6 @@ export {
   hello,
   vscode,
   eclipse,
-  Portfolio
+  Portfolio,
+  tictactoe
 };

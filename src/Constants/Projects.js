@@ -1,4 +1,4 @@
-import { Portfolio, ShopVilla } from "../assets";
+import { Portfolio, ShopVilla,tictactoe } from "../assets";
 const color=[
     "#63b598",	"#ce7d78",	"#ea9e70",	"#a48a9e",	"#c6e1e8",	"#648177",  "#0d5ac1",
     "#f205e6",	"#1c0365",	"#14a9ad",	"#4ca2f9",	"#a4e43f",	"#d298e2",	"#6119d0",
@@ -50,6 +50,14 @@ const project_shopvilla={
     imgSrc:ShopVilla,
     color:[Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length)]
 }
+const project_tic_tac_toe={
+    name:"Tic tac toe - Mutiplayer",
+    description:"A multiplayer player tic tac toe where user can play with each other from different locations ",
+    url:"https://tic-tac-toe-mvp-8lg6.vercel.app/",
+    stack:["#react JS","#stream-chat" , "#node js"],
+    imgSrc:tictactoe,
+    color:[Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length)]
+}
 
 const project_portfolio={
     name:"Portfolio",
@@ -60,6 +68,6 @@ const project_portfolio={
     color:[Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length),Math.floor(Math.random() * color.length)]
 }
 
-const project=[project_shopvilla,project_portfolio];
+const project=[project_shopvilla,project_tic_tac_toe,project_portfolio];
 
 export{project};
